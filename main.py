@@ -5,6 +5,11 @@ def main():
     ########################################
     """
 
+    number = int(input())
+
+    while (number < 0 or number > 100):
+        number = int(input())
+
     print(number)
 
     ########################################
